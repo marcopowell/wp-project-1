@@ -1,0 +1,228 @@
+body, html {
+    margin: 0;
+    font-size: 20px;
+    height: 100%;
+    background-color: rgb(195, 219, 223); 
+    scroll-behavior: smooth;
+    font-family: 'Staatliches', cursive;
+    padding-top: 35px;
+}
+main {
+    top: 0px;   
+}
+.navbar{
+    overflow: hidden;
+    background-color:rgb(56, 122, 194);
+    display: block;
+    top: 0;
+    font-family: 'Staatliches', cursive;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    height: 50px;
+}
+.logo {
+    height: 55px;
+    padding-bottom: 15px;  
+}
+.nav-link {
+    color:rgb(88, 167, 36);
+}
+a:active {
+    color: lightslategrey;
+}
+a:visited {
+    color: rgb(195, 219, 223);;    
+}
+li a:hover {
+    color: olive;
+}
+.section1{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.container-text-1 {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+.btn {
+    font-size: 15px;
+    padding-top: 60px;
+}
+.container-intro {
+    background-color: rgb(56, 122, 194);
+    padding-top: 20px;
+    max-width: 1200px;
+    position: relative;
+    color: whitesmoke;
+}
+.section2 {
+    color: rgb(56, 122, 194);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.border {
+    padding: 10px;   
+}
+.toTop {
+    width: 100%;
+    height: 300vh;   
+}
+.goTopBtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    bottom: 40px;
+    right:50px;
+}
+.container-footer {
+    background-image: url('../images/sanmateo.jpg');
+    background-size: cover; 
+    max-height: 650px;
+    background-position: center center;
+    background-attachment:scroll;
+    background-color: olive;
+    max-width: 100%;
+    margin-bottom: initial;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.btn-footer {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.fab  {
+    font-size: 1.5rem;
+    color: white;
+}
+.fas {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.4rem;
+    color: white;
+}
+.container-icons{
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+.container-list {
+    font-size: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 250px;
+    padding-bottom: 0px;
+}
+.icon-space {
+    gap: 20px;
+}
+.list {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    bottom: 0px;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .page-title{
+    color: rgb(56, 122, 194);
+    text-align: start;
+    padding: 30px;
+  }
+  .section-1{
+    text-align: justify;
+  }
+  .jmp {
+    background-color: rgb(56, 122, 194);
+    color: rgb(195, 219, 223);
+    padding-top: 30px;
+    width: 1200px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 15px;
+  }
+  .trail-list{
+    padding-top: 50px;
+  }
+  .trail-list-bottom{
+    padding-bottom: 100px;
+  }
+  .china-camp{
+    background-color: rgb(56, 122, 194);
+    color: rgb(195, 219, 223);
+    padding-top: 30px;
+    width: 1200px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 15px;
+  }
+  .corte-madera{
+    background-color: rgb(56, 122, 194);
+    color: rgb(195, 219, 223);
+    padding-top: 30px;
+    width: 1200px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 15px;
+  }
+  .pacifica {
+    background-color: rgb(56, 122, 194);
+    color: rgb(195, 219, 223);
+    padding-top: 30px;
+    width: 1200px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 15px;
+  }
